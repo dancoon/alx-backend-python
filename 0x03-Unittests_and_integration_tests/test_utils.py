@@ -71,4 +71,5 @@ class TestMemoize(unittest.TestCase):
             test_obj = TestClass()
             test_obj.a_property
             test_obj.a_property
-            mocked.asset_called_once()
+            mocked.assert_called_once()
+
